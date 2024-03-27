@@ -140,7 +140,7 @@
           "type": "root"
         },
         {
-          "background": "#D74B76",
+          "background": "#186F65",
           "foreground": "#ffffff",
           "properties": {
             "always_enabled": true
@@ -150,16 +150,16 @@
           "type": "executiontime"
         },
         {
-          "background": "#673F69",
+          "background": "transparent",
           "background_templates": [
             "{{ if gt .Code 0 }}#e91e63{{ end }}"
           ],
-          "foreground": "#ffffff",
+          "foreground": "transparent",
           "properties": {
             "always_enabled": true
           },
           "style": "diamond",
-          "template": "<parentBackground></>  ",
+          "template": "<parentBackground></> 🔥 ",
           "trailing_diamond": "",
           "type": "status"
         }
